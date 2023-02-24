@@ -1,0 +1,23 @@
+Assignment 3
+6922621
+# a script on the prices of some cars at Deuce’s Car Dealership.
+# Deuce’s Car Dealership is the right place to purchase your car.
+# Deuce’s Car dealership deals in car brands like Mercedes Benz,Toyota,Hyundai,Honda,Range Rover , BMW and many more.
+#prices of cars are in Ghana cedis.
+Cars={
+      Mercedes Benz 4matic':200000,'Mercedes Benz C300':300000,'Mercedes Benz GLE':500000,'Mercedes Benz GLC ':400000,'Mercedes Benz G wagon ':550000,
+      'Toyota tundra':250000,'Toyota Land Cruiser Prado ':500000,'Toyota Highlander':250000,'Toyota camry SE':180000,'Toyota Corolla':100000,
+      'Hyundai sonata':140000,'Hyundai accent':90000,'Hyundai Elantra':170000,'Hyundai i10':80000,
+      'Hyundai Tucson':110000,'Honda Civic':200000,
+      'Honda crostour':210000, 'Honda accord':290000, 'Honda CR-V':340000,
+     ‘Range Rover Sport ':700000,'Range Rover Evogue':1000000,'Range Rover Autobiography ':1500000,
+      'BMW Q1':195000,'BMW Q3’:2500000,'BMW Q7':350000,'BMW Q5':300000,'Kia Morning':50000,'Kia Picanto':65000,
+      'Lexus RLX 350':500000,'Chevrolet Camaro':400000,
+      }
+car_name=input('Specify car type: ') 
+if car_name in Cars:
+    print(f'the price of {car_name} is {Cars[car_name]:,} cedis ')
+else:
+    print(f'oops {car_name} is not available.Try other brands.eg:Opel Astra')   
+
+#Githubhttps://github.com/users/Addo-Derrick/emails/242510920/confirm_verification/70474956?via_launch_code_email=true
